@@ -18,7 +18,7 @@ class Roman {
 }
 public static int romanNumber(String roman){
     int i = 0;
-    char pre = '\u0000';
+    char pre = '\u0000';//value for null character
     int number = 0;
     for(i = 0; i < roman.length(); i++){
         if(roman.charAt(i) == 'I'){
